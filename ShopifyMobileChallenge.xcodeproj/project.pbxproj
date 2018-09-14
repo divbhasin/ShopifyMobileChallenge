@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FE40EF42149BF8800E55CF8 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE40EF32149BF8800E55CF8 /* Products.m */; };
+		6FE40EF72149CB0A00E55CF8 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE40EF62149CB0A00E55CF8 /* ProductViewController.m */; };
+		6FF88982214980D6000DA85D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF88981214980D6000DA85D /* AppDelegate.m */; };
+		6FF88985214980D6000DA85D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF88984214980D6000DA85D /* ViewController.m */; };
+		6FF88988214980D6000DA85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF88986214980D6000DA85D /* Main.storyboard */; };
+		6FF8898A214980D6000DA85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF88989214980D6000DA85D /* Assets.xcassets */; };
+		6FF8898D214980D6000DA85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8898B214980D6000DA85D /* LaunchScreen.storyboard */; };
+		6FF88990214980D6000DA85D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8898F214980D6000DA85D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FE40EF32149BF8800E55CF8 /* Products.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		6FE40EF52149BF9700E55CF8 /* Products.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		6FE40EF62149CB0A00E55CF8 /* ProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		6FE40EF82149CB1600E55CF8 /* ProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		6FF8897D214980D6000DA85D /* ShopifyMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopifyMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF88980214980D6000DA85D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FF88981214980D6000DA85D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FF88983214980D6000DA85D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FF88984214980D6000DA85D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FF88987214980D6000DA85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF88989214980D6000DA85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF8898C214980D6000DA85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF8898E214980D6000DA85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF8898F214980D6000DA85D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF8897A214980D6000DA85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF88974214980D6000DA85D = {
+			isa = PBXGroup;
+			children = (
+				6FF8897F214980D6000DA85D /* ShopifyMobileChallenge */,
+				6FF8897E214980D6000DA85D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF8897E214980D6000DA85D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8897D214980D6000DA85D /* ShopifyMobileChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF8897F214980D6000DA85D /* ShopifyMobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				6FF88980214980D6000DA85D /* AppDelegate.h */,
+				6FF88981214980D6000DA85D /* AppDelegate.m */,
+				6FF88983214980D6000DA85D /* ViewController.h */,
+				6FF88984214980D6000DA85D /* ViewController.m */,
+				6FF88986214980D6000DA85D /* Main.storyboard */,
+				6FF88989214980D6000DA85D /* Assets.xcassets */,
+				6FF8898B214980D6000DA85D /* LaunchScreen.storyboard */,
+				6FF8898E214980D6000DA85D /* Info.plist */,
+				6FF8898F214980D6000DA85D /* main.m */,
+				6FE40EF32149BF8800E55CF8 /* Products.m */,
+				6FE40EF52149BF9700E55CF8 /* Products.h */,
+				6FE40EF62149CB0A00E55CF8 /* ProductViewController.m */,
+				6FE40EF82149CB1600E55CF8 /* ProductViewController.h */,
+			);
+			path = ShopifyMobileChallenge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF8897C214980D6000DA85D /* ShopifyMobileChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF88993214980D6000DA85D /* Build configuration list for PBXNativeTarget "ShopifyMobileChallenge" */;
+			buildPhases = (
+				6FF88979214980D6000DA85D /* Sources */,
+				6FF8897A214980D6000DA85D /* Frameworks */,
+				6FF8897B214980D6000DA85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopifyMobileChallenge;
+			productName = ShopifyMobileChallenge;
+			productReference = 6FF8897D214980D6000DA85D /* ShopifyMobileChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF88975214980D6000DA85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Div Bhasin";
+				TargetAttributes = {
+					6FF8897C214980D6000DA85D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FF88978214980D6000DA85D /* Build configuration list for PBXProject "ShopifyMobileChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF88974214980D6000DA85D;
+			productRefGroup = 6FF8897E214980D6000DA85D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF8897C214980D6000DA85D /* ShopifyMobileChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF8897B214980D6000DA85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF8898D214980D6000DA85D /* LaunchScreen.storyboard in Resources */,
+				6FF8898A214980D6000DA85D /* Assets.xcassets in Resources */,
+				6FF88988214980D6000DA85D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF88979214980D6000DA85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF88985214980D6000DA85D /* ViewController.m in Sources */,
+				6FE40EF42149BF8800E55CF8 /* Products.m in Sources */,
+				6FE40EF72149CB0A00E55CF8 /* ProductViewController.m in Sources */,
+				6FF88990214980D6000DA85D /* main.m in Sources */,
+				6FF88982214980D6000DA85D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FF88986214980D6000DA85D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF88987214980D6000DA85D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF8898B214980D6000DA85D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF8898C214980D6000DA85D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF88991214980D6000DA85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FF88992214980D6000DA85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF88994214980D6000DA85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShopifyMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learniOS.ShopifyMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF88995214980D6000DA85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShopifyMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learniOS.ShopifyMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF88978214980D6000DA85D /* Build configuration list for PBXProject "ShopifyMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF88991214980D6000DA85D /* Debug */,
+				6FF88992214980D6000DA85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF88993214980D6000DA85D /* Build configuration list for PBXNativeTarget "ShopifyMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF88994214980D6000DA85D /* Debug */,
+				6FF88995214980D6000DA85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF88975214980D6000DA85D /* Project object */;
+}
